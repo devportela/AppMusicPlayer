@@ -6,6 +6,12 @@ android {
     namespace = "com.example.gustavo.etimpamigustavoportelamusicplayer"
     compileSdk = 36
 
+    buildFeatures {
+        viewBinding = true
+    }
+
+
+
     defaultConfig {
         applicationId = "com.example.gustavo.etimpamigustavoportelamusicplayer"
         minSdk = 24
