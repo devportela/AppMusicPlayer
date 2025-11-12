@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         setContentView(binding.getRoot());
-        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.novemberain);
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tekit);
 
         binding.stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.novemberain);
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tekit);
 
             }
         });
